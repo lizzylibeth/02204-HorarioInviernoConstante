@@ -27,7 +27,7 @@ public class Main {
         final boolean HORARIO_INVIERNO = true;
 
         //Mensaje
-        System.out.printf("El Horario de Invierno es nublado, frío y lluvioso..: %b%n", HORARIO_INVIERNO);
+        System.out.printf("Horario de invierno ...: %b%n", HORARIO_INVIERNO);
 
     }//main
 
