@@ -20,22 +20,15 @@ package org.japo.java.main;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
-        
-        //Constante
-            final boolean HORARIO_INVIERNO = true;
 
-        //1º MANERA
-            System.out.println("- Horario de Invierno Nublado, frío y lluvioso: " + HORARIO_INVIERNO);      
+        //Constantes
+        final boolean HORARIO_INVIERNO = true;
 
-        //2º MANERA
-            System.out.printf("- El Horario de Invierno es nublado, frío y lluvioso: %b%n", HORARIO_INVIERNO);
-           
-             
-        
-        
+        //Mensaje
+        System.out.printf("El Horario de Invierno es nublado, frío y lluvioso..: %b%n", HORARIO_INVIERNO);
+
     }//main
-    
+
 }//class
